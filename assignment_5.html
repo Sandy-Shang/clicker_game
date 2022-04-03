@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!--
+      Author: Sandy Shang 
+      Date: July 14, 2021
+
+      Filename: assignment5.html
+   -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blob Fish Clicker</title>
+        <link rel="stylesheet" type="text/css" href="assignment5styles.css">
+        <link rel=icon href="images/bug.png" sizes="16x16" type="images/png">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+
+    <body>
+        <div id="gameInfo">
+        <br>
+                <h1 id="title">Blob Fish Clicker</h1>
+                <div id="scoreContainer">
+                    <p id="scoreDisplay">
+                    <span id="scoreResult"></span>
+                    </p>
+                </div>
+                <hr/>
+                <button class="button" id="resetSpeed" style="vertical-align:middle"  onclick="resetSpeed()"><span>Reset Speed</span></button><br />
+                <button class="button" id="resetScore" style="vertical-align:middle"  onclick="resetScore()"><span>Reset Score</span></button><br />
+                <br>
+                <h4><a href="../index.html" target="_blank">Return to Index</a></h4>
+                <br>
+                <p id="copyright">Copyright @Sandy Shang - COMP125</p>
+            </div>
+        
+        <script src="assignment5.js"></script>
+    </body>
+</html>
